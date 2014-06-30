@@ -24,7 +24,7 @@ First, you need to create a container div at you HTML file:
     </body>
 
 After that, you need to call the plugin at you javascript:
-    <script type="text/javascript" charset="utf-8"> 
+    <script> 
         $(document).ready(function() { 
             $('#default_form').formalizeIt({ 
                 'token':'62bb61431348e22850828a5829c4373faafe29c1', 
@@ -48,7 +48,7 @@ First, you need to create a link tag at you HTML file:
     </body>
 
 After that, you need to call the plugin at you javascript:
-    <script type="text/javascript" charset="utf-8"> 
+    <script> 
         $(document).ready(function() { 
             $('#integration_form').formalizeIt({ 
                 'token':'62bb61431348e22850828a5829c4373faafe29c1', 
