@@ -24,6 +24,7 @@ First, you need to create a container div at you HTML file:
     </body>
 
 After that, you need to call the plugin at you javascript:
+    
     <script> 
         $(document).ready(function() { 
             $('#default_form').formalizeIt({ 
@@ -48,6 +49,7 @@ First, you need to create a link tag at you HTML file:
     </body>
 
 After that, you need to call the plugin at you javascript:
+    
     <script> 
         $(document).ready(function() { 
             $('#integration_form').formalizeIt({ 
