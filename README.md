@@ -80,6 +80,6 @@ Options
 Contributing
 ----------
 
-To contribute with the plugin, you will need Node.js installed in your machine.
+To contribute with the plugin, you will need Node.js and CoffeeScript installed in your machine.
 
 Clone the repository and run `npm install`. After that, you just need to run `gulp watch` and have fun.
