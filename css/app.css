@@ -1,0 +1,11 @@
+body,html{height:100%;padding:0;margin:0}
+.wrapper{width:960px;margin:0 auto}
+#default_form{display:block;padding-top:10px;overflow:hidden}
+#integration_form{display:block;padding-top:40px}
+.modal{width:100%;height:100%;background:rgba(0,0,0,.9);position:absolute;top:0;left:0}
+.modal .modal_container{position:fixed;top:50%;left:50%}
+.modal .modal_container form{display:block}
+.modal .modal_container .close{cursor:pointer;display:block;text-align:right;padding:0;margin:0}
+.error{border:1px solid red}
+.form-control.error:focus{border:1px solid red;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,0,0,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,0,0,.6)}
+#form_integration_form fieldset label{color:#fff}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Teste RD</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body> 
+      <div class="wrapper">
+        <div id="default_form"></div>
+        <a id="integration_form" href="#">Quero receber materiais por email</a>   
+      </div>
+      
+      <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/app.css" />
+
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/plugins/jquery.validate.js"></script>
+      <script src="js/plugins/jquery.modalizeIt.js"></script>
+      <script src="js/plugins/jquery.formalizeIt.js"></script>
+
+      <script type="text/javascript" charset="utf-8"> 
+        $(document).ready(function() { 
+          init_forms() 
+        }); 
+
+        function init_forms(){
+          $('#default_form').formalizeIt({ 
+            'token':'62bb61431348e22850828a5829c4373faafe29c1', 
+            'secret':'51a266c2844ccd5cac83d88de88d82d05358aa51', 
+            'modal':false, 
+            'fields':{ 
+              'estado':['PR','SC','SP','RS'], 
+              'nivel':['Iniciante','Intermediário','Avançado','Ninja'] 
+            } 
+          }); 
+
+          $('#integration_form').formalizeIt({ 
+            'token':'62bb61431348e22850828a5829c4373faafe29c1', 
+            'secret':'51a266c2844ccd5cac83d88de88d82d05358aa51', 
+            'modal':true, 
+            'fields':{ 
+              'estado':['PR','SC','SP','RS'], 
+              'nivel':['Iniciante','Intermediário','Avançado','Ninja'] 
+            } 
+          });
+        }
+      </script>
+    </body>     
+</html>
